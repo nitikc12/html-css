@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background: #f5f7fa;
+}
+.navbar a {
+  font-size: 1rem;
+  margin-left: 7rem;
+  color: black;
+  text-decoration: none;
+  padding-top: 2rem;
+}
+.button1 {
+  width: 77px;
+  height: 40px;
+  border: none;
+  padding: 10px, 20px, 10px, 20px;
+  margin-left: 6rem;
+}
+.button2 {
+  width: 91px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 10px, 20px, 10px, 20px;
+  color: white;
+  border: none;
+
+  background-color: #4caf4f;
+}
+.content h1 {
+  width: 657px;
+  height: auto;
+  font-size: 50px;
+  padding: 50px 32px;
+  color: #484848;
+  margin-left: 70px;
+  position: absolute;
+}
+.content1 h1 {
+  /* width: 657px; */
+  height: auto;
+  font-size: 50px;
+  padding: 95px 32px;
+  color: #4caf4f;
+  margin-left: 70px;
+  position: absolute;
+}
+.content2 h6 {
+  /* width: 657px; */
+  height: auto;
+  font-size: 20px;
+  padding: 160px 32px;
+  color: grey;
+  margin-left: 70px;
+  position: absolute;
+}
+.button3 {
+  width: 91px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 10px, 20px, 10px, 20px;
+  color: white;
+  border: none;
+  margin-top: 270px;
+  margin-left: 100px;
+  background-color: #4caf4f;
+}
+.content3 h2 {
+  color: #484848;
+  margin-left: 600px;
+  padding: 90px 0px;
+}
+.content4 h6 {
+  color: #484848;
+  margin-left: 600px;
+}
+.services h5 {
+  color: #484848;
+  margin-left: 500px;
+  padding: 0px;
+}
+.box {
+  display: flex;
+  /*display: inline-block;*/
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  margin: 20px;
+}
+
+.box img {
+  width: 80px;
+  height: auto;
+}
+.services1 h2 {
+  color: #484848;
+  margin-left: 500px;
+  padding: 0px;
+}
+
+.cover {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  justify-content: center;
+  gap: 20px;
+}
+
+.box0,
+.box1,
+.box2 {
+  width: 90%;
+  height: 250px;
+  box-shadow: -1px 0 10px #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about img {
+  float: left;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.about h2 {
+  margin-left: 100px;
+  font-size: 50px;
+  color: #484848;
+}
+.about p {
+  margin-left: 100px;
+}
+.button4 {
+  width: 91px;
+  height: 40px;
+  border-radius: 6px;
+  margin-left: 100px;
+
+  color: white;
+  border: none;
+
+  background-color: #4caf4f;
+}
+
+.heading-container {
+  text-align: center;
+}
+.heading-container p {
+  margin-right: 600px;
+}
+.boxcontainer {
+  background-color: #f5f7fa;
+}
+.services1 p {
+  margin-left: 500px;
+}
+.box-container1 {
+  display: flex;
+}
+.box-container1 img {
+  float: right;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.topic1 h2 {
+  margin: 0;
+}
+.box4 {
+  background-color: #f5f7fa;
+  padding: 50px 100px;
+  display: flex;
+}
+
+.box4_left {
+  margin-right: 200px;
+}
+
+.box4_right img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.box_title {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+.box4_right {
+  margin-right: 0px;
+}
+.about1 img {
+  float: left;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+}
+
+.box5 {
+  margin-top: 200px;
+}
+.about1 h2 {
+  margin-left: 100px;
+  font-size: 50px;
+  color: #484848;
+}
+.about1 p {
+  margin-left: 100px;
+}
+.button5 {
+  width: 91px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 10px, 20px, 10px, 20px;
+  color: white;
+  border: none;
+
+  background-color: #4caf4f;
+}
+.box5 {
+  background-color: #f5f7fa;
+  padding: 50px 100px;
+  display: flex;
+}
+
+.box5_left {
+  margin-right: 200px;
+}
+
+.box5_right img {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.box_title {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+.box5_right {
+  margin-right: 0px;
+}
+
+.images {
+  padding: 0 10px;
+}
+
+.images img {
+  padding-right: 20px;
+}
+.services1 h1 {
+  padding-left: 500px;
+  padding-top: 40px;
+}
+
+.services p {
+  padding-left: 20px;
+}
+.box6 img {
+  width: 400px;
+  /* margin-left: 50px; */
+  border-radius: 25px;
+}
+.box6_background {
+  background-color: #f5f7fa;
+  padding: 120px 120px;
+  display: flex;
+  position: absolute;
+  margin-top: 150px;
+  border-radius: 25px;
+  margin-left: 70px;
+}
+.pictures {
+  display: flex;
+  margin: 20px auto;
+  gap: 1.5rem;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+}

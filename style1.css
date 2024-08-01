@@ -1,0 +1,16 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.main-header {
+  background-color: #d0d6d5;
+}
+.main-section {
+  background-color: #e03030;
+}
+
+.secondary {
+  color: beige;
+}
+span {
+  background-color: aqua;
+}

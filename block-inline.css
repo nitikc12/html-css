@@ -1,0 +1,23 @@
+body {
+  color: #444;
+}
+h1,
+h2 {
+  border: 2px solid grey;
+  width: 500px;
+  height: 100px;
+  /*display: inline;  it has changed in inline*/
+  display: block;
+  margin: 50px 10px;
+}
+
+h1 {
+  margin: 100px;
+}
+a {
+  border: 2px solid #222;
+  width: 100px; /*it wont make any difference as it is a inline element*/
+  height: 100px; /*it wont make any difference as it is a inline element*/
+  margin: 100px;
+  padding: 0px; /* we cannot give padding in top and bottom in inline element*/
+}

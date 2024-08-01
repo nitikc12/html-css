@@ -1,0 +1,13 @@
+hr {
+  width: 500px;
+  margin-left: 0;
+  border: 0.5px dashed black;
+}
+.box1 {
+  width: 500px;
+  background: lightsalmon;
+  border: 10px solid black;
+}
+.box2 {
+  width: 500px;
+}
